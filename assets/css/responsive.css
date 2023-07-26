@@ -1,0 +1,96 @@
+@media only screen and (max-width:1140px){
+    .container{
+        width:100%;
+        padding:0 40px;
+    }
+    .welcome .welcome-wrapper {
+        flex-wrap: wrap;
+    }
+    .welcome .column {
+        padding:0 2rem;
+    }
+    .international .slider .arrows i.fa-chevron-left {
+        display:none;
+    }
+    .international .slider .arrows i.fa-chevron-right {
+     display:none;
+    }
+}
+@media only screen and (max-width:1000px){
+    .welcome .column {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:800px){
+    .hero .content h1 {
+        font-size: 4rem;
+    }
+    .scroll-down{
+        bottom:0;
+    }
+    .title-section {
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .title-section .title {
+        font-size: 1.2rem;
+    }
+    .title-section .subtitle {
+        font-size: 1rem;
+    }
+    .experience .experience-list ul li {
+        width: 50%;
+    }
+    .recent-blog .recent-blog-list ul li {
+        width: 50%;
+    }
+    .testimonials .testimonials-wrapper li {
+        width: 50%;
+        padding: 0 30px;
+        text-align: left;
+    }
+    .top-destination-list ul li {
+        width: 50%;
+        padding: 20px 20px;
+    }
+    .footer .footer-list li {
+        width: 50%;
+        padding: 0 20px;
+    }
+    ul, li {
+        list-style: none;
+        width: 50%;
+    }
+}
+@media only screen and (max-width:650px){
+    .hero .content h1 {
+        font-size: 2rem;
+    }
+    .experience .experience-list ul li {
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .recent-blog .recent-blog-list ul li {
+        width: 100%;
+        padding: 10px 0;
+    }
+    .testimonials .testimonials-wrapper li {
+        width: 100%;
+        padding: 0 30px;
+        text-align: left;
+    }
+    .top-destination-list ul li {
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .footer .footer-list li {
+        width: 100%;
+        padding: 0 20px;
+    }
+    ul, li {
+        list-style: none;
+        width: 100%;
+    }
+}

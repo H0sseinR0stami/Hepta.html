@@ -1,0 +1,58 @@
+.recent-blog{
+    background-color: #65c0ba;
+    position:relative;
+}
+.recent-blog:after{
+    content:"";
+    position: absolute;
+    width:100%;
+    height:400px;
+    top:-240;
+    left:0;
+    background-color:#65c0ba;
+    transform: skew(0,-4deg);
+    z-index:0;
+}
+.recent-blog .title-section .subtitle{
+    color:white;
+}
+.recent-blog .recent-blog-list{
+    padding:30px 0;
+}
+.recent-blog .recent-blog-list ul{
+    display:flex;
+    flex-wrap: wrap;
+}
+.recent-blog .recent-blog-list ul li{
+    width:33.33%;
+    background-color:#65c0ba;
+    padding:10px;
+}
+.recent-blog .recent-blog-list ul li .image img{
+    width:100%;
+}
+.recent-blog .recent-blog-list ul li .content span{
+    color:#ced4da;
+    font-size: 1.2rem;
+}
+.recent-blog .recent-blog-list ul li .content{
+    padding:20px 20px;
+    background-color: white;
+}
+.recent-blog .recent-blog-list ul li .content h3{
+    margin:0;
+}
+.recent-blog .recent-blog-list ul li .content a{
+    color:black;
+    font-size:2rem;
+
+}
+.recent-blog .recent-blog-list ul li .content a:hover{
+    color:#65c0ba;
+    transition: all 0.5s;
+}
+.recent-blog .recent-blog-list ul li .content p{
+    width:70%;
+    font-size: 1.2rem;
+    font-family: 'Mukta Mahee ExtraLight';
+}

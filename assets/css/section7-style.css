@@ -1,0 +1,38 @@
+.top-destination-list ul{
+    display:flex;
+    flex-wrap:wrap;
+}
+.top-destination-list ul li{
+    width:25%;
+    padding:20px 20px;
+}
+.top-destination-list ul li .image{
+    padding-bottom:10px;
+}
+.top-destination-list ul li .image img{
+    width:100%;
+}
+.top-destination-list ul li h2{
+    margin:0;
+}
+.top-destination-list ul li a{
+    color:black;
+    font-size:2rem;
+}
+.top-destination-list ul li a:hover{
+    color:#65c0ba;
+    transition:all 0.5s;
+}
+.top-destination-list ul li i{
+    color:#65c0ba;
+}
+.top-destination-list ul li .review{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+.top-destination-list ul li .review p{
+    color:#ccc;
+    font-size: 1.5rem;
+}
+

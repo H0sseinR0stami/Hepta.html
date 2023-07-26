@@ -1,0 +1,26 @@
+.experience{
+    background-color:#fafafa;
+    border-top:solid 1px;
+    border-color:#e0e0e0;
+}
+.experience .experience-list ul{
+    display:flex;
+    flex-wrap:wrap;
+    padding:40px 0;
+}
+.experience .experience-list ul li{
+    padding:10px;
+    width:33.33%;
+    text-align: center;
+}
+.experience .experience-list ul li img{
+    width:70px;
+    height:auto;
+    border-radius:20px;
+}
+.experience .experience-list ul li .title{
+    font-size:2rem;
+}
+.experience .experience-list ul li .description{
+    font-size:1.2rem;
+}
